@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Abiramy</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="attri_1">Full Name</string>
+    <string name="attri_2">Email</string>
+    <string name="attri_3">Mobile</string>
+    <string name="attri_4">Delivery Address</string>
+    <string name="button1">delete Account</string>
+    <string name="button2">Update</string>
+    <string name="user">User Profile</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="use_name">User Name</string>
+    <string name="use_email">User Email</string>
+    <string name="use_mob">User Mobile</string>
+    <string name="use_add">User Address</string>
+
+    <string name="user_update">Editing User Details</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+
+    <string name="cart">Add Cart</string>
+    <string name="ord">Orders</string>
+    <string name="orders">Number of Orders</string>
+    <string name="desc">Description</string>
+    <string name="itemtype">Pizza Type</string>
+    <string name="itemsize">Pizza Size</string>
+
+    <array name="item">
+        <item>"Please select item"</item>
+        <item>Devil Chicken Pizza</item>
+        <item>Tandoori Chicken Pizza</item>
+        <item>Spicy Veggie Paneer Pizza</item>
+        <item>Hot Butter Cuttlefish Pizza</item>
+        <item>Prawn with Chicken Bacon Pizza</item>
+        <item>Devilled Beef Pizza</item>
+        <item>Spicy Sea Food Pizza</item>
+    </array>
+
+    <array name="size">
+        <item>"Please select size"</item>
+        <item>Personal</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </array>
+
+    <array name="pizza">
+        <item>Devil Chicken Pizza</item>
+        <item>Tandoori Chicken Pizza</item>
+        <item>Spicy Veggie Paneer Pizza</item>
+        <item>Hot Butter Cuttlefish Pizza</item>
+        <item>Prawn with Chicken Bacon Pizza</item>
+        <item>Devilled Beef Pizza</item>
+        <item>Spicy Sea Food Pizza</item>
+    </array>
+
+    <array name="pizzaSize">
+        <item>Personal</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </array>
+
+    <string name="editorder">Edit Cart Detail</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370900381098",
+    "project_id": "danu-6d63a",
+    "storage_bucket": "danu-6d63a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370900381098:android:ed1199fa955e2dd36d8fd3",
+        "android_client_info": {
+          "package_name": "com.example.abiramy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370900381098-sshuqpa12idot9kvbnrs70u2jt2kdmhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi-RuCWFfr0VIMtp6wSMmTSaKD_uygQt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370900381098-sshuqpa12idot9kvbnrs70u2jt2kdmhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
