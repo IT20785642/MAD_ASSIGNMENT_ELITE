@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculation">
+
+
+    <RelativeLayout
+        android:id="@+id/onere"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pizza"/>
+
+        <TextView
+            android:id="@+id/admin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+            android:ellipsize="end"
+            android:text="Admin"
+            android:textColor="#a6c1ee"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/empMangment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="60dp"
+            android:ellipsize="end"
+            android:text="Employer Managment"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/twore"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@id/onere">
+
+        <TextView
+            android:id="@+id/addnew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:text="Employer Salary Calculation"
+            android:textColor="#FF5733"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="40dp"
+            android:text="Emp ID: EMP008"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="70dp"
+            android:text="Month Salary: 5500"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="110dp"
+            android:text="Absent Date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="390dp"
+            android:layout_marginTop="110dp"
+            android:text="5"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="240dp"
+        android:text="Rs."/>
+
+    <RelativeLayout
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twore">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="#F4BFF2"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="#9B38AC"
+                android:layout_marginTop="15dp"
+                android:text="Salary"/>
+            <TextView
+                android:id="@+id/salAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:text="51000"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="#F4BFF2"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="#9B38AC"
+                android:layout_marginTop="15dp"
+                android:text="OTP"/>
+            <TextView
+                android:id="@+id/otpAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:text="14000"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_below="@+id/r2"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="#F4BFF2"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="#9B38AC"
+                android:layout_marginTop="15dp"
+                android:text="Bonus"/>
+            <TextView
+                android:id="@+id/bonusAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:text="5000"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_below="@+id/r3"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="#F4BFF2"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="#9B38AC"
+                android:layout_marginTop="15dp"
+                android:text="Tax"/>
+            <TextView
+                android:id="@+id/taxAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:text="2800"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_below="@+id/t1"
+        android:id="@+id/cal_btn"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="20dp"
+        android:text="Calculate Total" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_below="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:text="51000"/>
+
+</RelativeLayout>
